@@ -1,53 +1,37 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Net.NetworkInformation;
 
-namespace HomeService.Models
+namespace HomeServices.Model
 {
     public class Booking
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int BookingId { get; set; }
+        public int BookingID { get; set; }
 
-        public int CustomerId { get; set; }
-        [ForeignKey("CustomerId")]
+        public int CustomerID { get; set; }
+        [ForeignKey("CustomerID")]
         public Customer Customer { get; set; }
 
-        public int WorkerId { get; set; }
-        [ForeignKey("WorkerId")]
+        public int WorkerID { get; set; }
+        [ForeignKey("WorkerID")]
         public Worker Worker { get; set; }
 
-
-        public int ServiceId { get; set; }
-        [ForeignKey("ServiceId")]
+        public int ServiceID { get; set; }
+        [ForeignKey("ServiceID")]
         public Service Service { get; set; }
 
         [Required]
         public DateTime BookingDate { get; set; }
 
-        public int StatusId { get; set; }
-
-        [ForeignKey("StatusId")]
+        public int StatusID { get; set; }
+        [ForeignKey("StatusID")]
         public Status Status { get; set; }
 
-        public int PaymentId { get; set; }
+        public int PaymentID { get; set; }
+        [ForeignKey("PaymentID")]
+        public Payment Payment { get; set; }
 
-
-        public class ProjectDBContext : DbContext
-        {
-            public ProjectDBContext(DbContextOptions options) : base(options)
-            {
-
-            }
-
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            {
-                base.OnConfiguring(optionsBuilder);
-            }
-            public DbSet<Booking> Bookings { get; set; }
-
-        }
     }
 }
-

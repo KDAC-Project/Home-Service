@@ -25,6 +25,6 @@ namespace HomeServices.Model
         public string Address { get; set; }
 
         public ICollection<Booking> Bookings { get; set; }
-    }
 
+    }
 }

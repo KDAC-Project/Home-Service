@@ -1,21 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace HomeService.Models
+namespace HomeServices.Model
 {
     public class Status
     {
         [Key]
-        public int StatusID {  get; set; }
-        
+        public int StatusID { get; set; }
+
         [StringLength(25)]
         public string StatusDesc { get; set; }
 
-        public ICollection<Booking>Bookings{ get; set; }
+        public ICollection<Booking> Bookings { get; set; }
 
-        
-        }
-
-    
+    }
 }

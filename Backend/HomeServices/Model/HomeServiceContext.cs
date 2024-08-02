@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 namespace HomeServices.Model
 {
     public class HomeServiceContext:DbContext
@@ -17,5 +18,16 @@ namespace HomeServices.Model
 
         public DbSet<Payment> payments { get; set; }
 
+        public  DbSet<Status> status { get; set; }
+
+        public DbSet<WorkerPayment> workerPayments { get; set; }
+
+        public DbSet<Booking> bookings { get; set; }
+
+        public DbSet<Status> statuses { get; set; }
+
+        public DbSet<Worker> workers { get; set; }
+
+        public DbSet<Rating> ratings { get; set; }
     }
 }
