@@ -1,38 +1,20 @@
-﻿using HomeService.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HomeService.Models
+namespace HomeServices.Model
 {
     public class Rating
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int RatingId { get; set; }
+        public int RatingID { get; set; }
 
+        public int WorkerID { get; set; }
+        [ForeignKey("WorkerID")]
+        public Worker Worker { get; set; }
 
-        public int WorkerId { get; set; }
-        [ForeignKey("WorkerId")]
-        public string Worker WorkerPayement  { get; set; }
-
-         [Range(1,5)]
-        public string RatingValue { get; set; }
-    }
-
-public class ProjectDBContext : DbContext
-{
-    public ProjectDBContext(DbContextOptions options) : base(options)
-    {
+        [Range(1, 5)]
+        public int RatingValue { get; set; }
 
     }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        base.OnConfiguring(optionsBuilder);
-    }
-    public DbSet<Rating> Ratings { get; set; }
-
 }
-
-

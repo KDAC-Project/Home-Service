@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using HomeService.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace HomeService.Models
+namespace HomeServices.Model
 {
-    public class Wpayment
+    public class WorkerPayment
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,6 +21,6 @@ namespace HomeService.Models
 
         [Required]
         public DateTime WpaymentDate { get; set; }
-    }
 
+    }
 }
