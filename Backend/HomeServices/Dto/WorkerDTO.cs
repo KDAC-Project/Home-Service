@@ -1,4 +1,4 @@
-﻿namespace HomeServices.Model
+﻿namespace HomeServices.Dto
 {
     public class WorkerDTO
     {
