@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HomeServices.Model
 {
@@ -7,6 +8,7 @@ namespace HomeServices.Model
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int CustomerID { get; set; }
 
         [Required]
@@ -19,10 +21,18 @@ namespace HomeServices.Model
         public string Email { get; set; }
 
         [Required]
+        [StringLength(100)]
+        
+        public string Password { get; set; }
+
+
+        [Required]
         [StringLength(15)]
         public string Phone { get; set; }
 
         public string Address { get; set; }
+
+
 
         public ICollection<Booking> Bookings { get; set; }
 
