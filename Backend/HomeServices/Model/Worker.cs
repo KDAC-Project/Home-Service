@@ -26,6 +26,10 @@ namespace HomeServices.Model
         [StringLength(100)]
         public string Skill { get; set; }
 
+        [Column("Password", TypeName = "varchar")]
+        [StringLength(25)]
+        public string Password { get; set; }
+
         public int? ServiceID { get; set; }
         [ForeignKey("ServiceID")]
         public Service Service { get; set; }
