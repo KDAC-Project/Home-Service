@@ -12,22 +12,22 @@ namespace HomeServices.Model
         }
 
 
-        public DbSet<Service> services { get; set; }
+        public DbSet<Service> Services { get; set; }
 
-        public DbSet<Customer> customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
-        public DbSet<Payment> payments { get; set; }
+        public DbSet<Payment> Payments { get; set; }
 
-        public  DbSet<Status> status { get; set; }
+        public  DbSet<Status> Status { get; set; }
 
-        public DbSet<WorkerPayment> workerPayments { get; set; }
+        public DbSet<WorkerPayment> WorkerPayments { get; set; }
 
-        public DbSet<Booking> bookings { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
 
-        public DbSet<Status> statuses { get; set; }
+        public DbSet<Status> Statuses { get; set; }
 
-        public DbSet<Worker> workers { get; set; }
+        public DbSet<Worker> Workers { get; set; }
 
-        public DbSet<Rating> ratings { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
     }
 }
