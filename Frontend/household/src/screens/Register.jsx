@@ -6,10 +6,8 @@ import { register } from '../services/admin'
 
 function Register() {
     const [Name, setName] = useState('')
-  //  const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-   // const [confirmPassword, setConfirmPassword] = useState('')
+    const [password, setPassword] = useState('') 
     const [phone, setPhone] = useState('')
   
     // get the navigation hook
