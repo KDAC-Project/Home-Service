@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using HomeServices.Model;
+using HomeServices.Dto;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -27,7 +28,7 @@ namespace HomeServices.Controllers
         }
 
         [HttpGet("{id}")]
-        public WorkerDTO Get(int id)
+         public WorkerDTO Get(int id)
         {
             Worker worker = _Context.Workers.Find(id);
             WorkerDTO workerDTO = new WorkerDTO();
