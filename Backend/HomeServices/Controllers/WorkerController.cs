@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using HomeServices.Model;
+using HomeServices.Dto;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -40,22 +41,35 @@ namespace HomeServices.Controllers
         }
 
         [HttpPost]
-        public WorkerDTO Login([FromBody] Login loginWorker)
+        public string Post([FromBody] WorkerDTO workerDTO)
         {
-            WorkerDTO dTO = new WorkerDTO();
-            foreach (var worker in _Context.Workers)
-            {
-                if (worker.Email.Equals(loginWorker.Email) && worker.Password.Equals(loginWorker.Password))
-                {
-                    Console.WriteLine(worker);
-                    dTO.Email = worker.Email;
-                    dTO.Name = worker.Name;
-                    dTO.Phone = worker.Phone;
-                    dTO.Skill = worker.Skill;
-                }
-            }
-            return dTO;
+            Worker w = new Worker();
+            // w.WorkerID = workerDTO.WorkerID;
+             w.Name = workerDTO.Name;
+             w.Email = workerDTO.Email;
+             w.Phone = workerDTO.Phone;
+             w.Skill = workerDTO.Skill;
+             w.Password = workerDTO.Password;
+            _Context.Workers.Add(w);
+
+            _Context.SaveChanges();
+            return "Worker Added Successfully";
+
+            //WorkerDTO dTO = new WorkerDTO();
+            //foreach (var worker in _Context.Workers)
+            //{
+            //    if (worker.Email.Equals(loginWorker.Email) && worker.Password.Equals(loginWorker.Password))
+            //    {
+            //        Console.WriteLine(worker);
+            //        dTO.Email = worker.Email;
+            //        dTO.Name = worker.Name;
+            //        dTO.Phone = worker.Phone;
+            //        dTO.Skill = worker.Skill;
+            //    }
+            //}
+            
         }
+        
 
         [HttpPut("{id}")]
         public string Put(int id, [FromBody] Worker workerUpdated)
