@@ -5,7 +5,6 @@ export function Navbar() {
 
     return <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
     <div className="container-fluid">
-      
       <a className="navbar-brand">HouseHold Services</a>
       
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -16,16 +15,16 @@ export function Navbar() {
          </Link>
           </li>
           <li>
-          <Link className="nav-link" aria-current="page" to="/Our Services">
+          <Link className="nav-link" aria-current="page" to="/Services">
             Our Services
             </Link>
           </li>
 
-          {/* <li>
-          <Link className="nav-link" aria-current="page" to="Register as Professional">
+          <li>
+          <Link className="nav-link" aria-current="page" to="/Register">
             Register as Professional
             </Link>
-          </li> */}
+          </li>
 
           <li>
           <Link className="nav-link" aria-current="page" to="F.A.Q">
