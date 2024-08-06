@@ -15,13 +15,13 @@ export function Navbar() {
          </Link>
           </li>
           <li>
-          <Link className="nav-link" aria-current="page" to="/Our Services">
+          <Link className="nav-link" aria-current="page" to="/Services">
             Our Services
             </Link>
           </li>
 
           <li>
-          <Link className="nav-link" aria-current="page" to="Register as Professional">
+          <Link className="nav-link" aria-current="page" to="/Register">
             Register as Professional
             </Link>
           </li>

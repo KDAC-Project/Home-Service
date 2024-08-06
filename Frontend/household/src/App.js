@@ -5,6 +5,8 @@ import 'react-toastify/dist/ReactToastify.css'
 import Register from './screens/Register'
 import Login from './screens/Login'
 import Home from './screens/Home'
+import Services from './screens/Services'
+
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/Login' element={<Login/>}></Route>
       <Route path='/Home' element={<Home/>}></Route>
+      <Route path='/Services' element={<Services/>}></Route>
+     
       
       </Routes>
       <ToastContainer/>

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import img from "../images/background_img.png"
-import '../Home.css';
+import '../Styles/Home.css';
 
 export function Home() {
     return (
