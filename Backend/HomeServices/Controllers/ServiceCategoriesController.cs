@@ -67,7 +67,7 @@ namespace HomeServices.Controllers
                 return NotFound();
             }
 
-            category.CategoryID = categoryDto.CategoryID;
+          //  category.CategoryID = categoryDto.CategoryID;
             category.CategoryName = categoryDto.CategoryName;
             
 
@@ -85,7 +85,7 @@ namespace HomeServices.Controllers
             var category = new Category
             {
                 // Initialize properties from DTO
-                CategoryID = categoryDto.CategoryID,
+             //   CategoryID = categoryDto.CategoryID,
                 CategoryName = categoryDto.CategoryName,
 
                 
