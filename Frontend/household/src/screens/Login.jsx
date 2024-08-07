@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import { login } from '../services/admin';
+import "../styles/Login.css";
+
 
 function Login() {
   const [email, setEmail] = useState('')
@@ -11,17 +14,32 @@ function Login() {
   // get navigation hook
   const navigate = useNavigate()
 
-  const onLogin = () => {
+  const onLogin = async () => {
+    debugger;
     if (email.length == 0) {
       toast.error('Please enter email')
     } else if (password.length == 0) {
       toast.error('Please enter password')
     } else {
+      try {
       // call login API and check its success
       // go to home screen
-      navigate('/home')
-    }
-  }
+      const response = await login(email, password);
+      debugger;
+      console.log(response.status);
+        if (response === 'Login Successful') {
+          toast.success('Login Successful');
+          navigate('/home')
+        } else {
+          toast.error('Login failed. Please check your email and password.');
+        }
+      } catch (error) {
+        toast.error('An error occurred during login. Please try again.');
+      }
+    }
+  };
+    
+  
 
   return (
     <div>

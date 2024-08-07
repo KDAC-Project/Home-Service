@@ -21,7 +21,16 @@ namespace HomeServices
             builder.Services.AddDbContext<HomeServiceContext>
                           ((option) => { option.UseSqlServer("name=mycon"); }
                           );
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactApp",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:3000")
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -32,6 +41,8 @@ namespace HomeServices
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowReactApp");
 
             app.UseAuthorization();
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import '../Styles/Services.css';
+import '../styles/Services.css';
 import img from '../images/housekeeping.jpg';
 import img2 from '../images/Electrician.jpg';
 import img3 from '../images/Plumbing.jpg';
