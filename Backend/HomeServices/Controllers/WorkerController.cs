@@ -1,97 +1,137 @@
-﻿using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Mvc;
+﻿using HomeServices.Dto;
 using HomeServices.Model;
-using HomeServices.Dto;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace HomeServices.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // [EnableCors("policy")]
-    // public class UsersController : ControllerBase
     public class WorkerController : ControllerBase
     {
-        private HomeServiceContext _Context = null;
+        private readonly HomeServiceContext _context;
 
         public WorkerController(HomeServiceContext context)
         {
-            _Context = context;
+            _context = context;
         }
 
+        // GET: api/Workers
         [HttpGet]
-        public IEnumerable<Worker> Get()
+        public ActionResult<IEnumerable<WorkerDto>> GetWorkers()
         {
-            return _Context.Workers.ToList();
+            var workers = _context.Workers
+                .Select(w => new WorkerDto
+                {
+                    WorkerID = w.WorkerID,
+                    Name = w.Name,
+                    Email = w.Email,
+                    Phone = w.Phone,
+                    Skill = w.Skill
+                })
+                .ToList();
+
+            return Ok(workers);
         }
 
+        // GET: api/Workers/5
         [HttpGet("{id}")]
-         public WorkerDTO Get(int id)
+        public ActionResult<WorkerDto> GetWorker(int id)
         {
-            Worker worker = _Context.Workers.Find(id);
-            WorkerDTO workerDTO = new WorkerDTO();
-            workerDTO.WorkerID = worker.WorkerID;
-            workerDTO.Name = worker.Name;
-            workerDTO.Email = worker.Email;
-            workerDTO.Phone = worker.Phone;
-            workerDTO.Skill = worker.Skill;
-            return workerDTO;
+            var worker = _context.Workers.Find(id);
+
+            if (worker == null)
+            {
+                return NotFound();
+            }
+
+            var workerDto = new WorkerDto
+            {
+                WorkerID = worker.WorkerID,
+                Name = worker.Name,
+                Email = worker.Email,
+                Phone = worker.Phone,
+                Skill = worker.Skill
+            };
+
+            return Ok(workerDto);
         }
 
-        [HttpPost]
-        public string Post([FromBody] WorkerDTO workerDTO)
-        {
-            Worker w = new Worker();
-            // w.WorkerID = workerDTO.WorkerID;
-             w.Name = workerDTO.Name;
-             w.Email = workerDTO.Email;
-             w.Phone = workerDTO.Phone;
-             w.Skill = workerDTO.Skill;
-             w.Password = workerDTO.Password;
-            _Context.Workers.Add(w);
-
-            _Context.SaveChanges();
-            return "Worker Added Successfully";
-
-            //WorkerDTO dTO = new WorkerDTO();
-            //foreach (var worker in _Context.Workers)
-            //{
-            //    if (worker.Email.Equals(loginWorker.Email) && worker.Password.Equals(loginWorker.Password))
-            //    {
-            //        Console.WriteLine(worker);
-            //        dTO.Email = worker.Email;
-            //        dTO.Name = worker.Name;
-            //        dTO.Phone = worker.Phone;
-            //        dTO.Skill = worker.Skill;
-            //    }
-            //}
-            
-        }
-        
-
+        // PUT: api/Workers/5
         [HttpPut("{id}")]
-        public string Put(int id, [FromBody] Worker workerUpdated)
+        public IActionResult PutWorker(int id, WorkerDto workerDto)
         {
-            Worker workerToUpdate = _Context.Workers.Find(id);
-            workerToUpdate.Name = workerUpdated.Name;
-            workerToUpdate.Email = workerUpdated.Email;
-            workerToUpdate.Phone = workerUpdated.Phone;
-            workerToUpdate.Skill = workerUpdated.Skill; 
+            if (id != workerDto.WorkerID)
+            {
+                return BadRequest();
+            }
 
-            _Context.SaveChanges();
-            return "Updated Successfully";
+            var worker = _context.Workers.Find(id);
+            if (worker == null)
+            {
+                return NotFound();
+            }
+
+            worker.Name = workerDto.Name;
+            worker.Email = workerDto.Email;
+            worker.Phone = workerDto.Phone;
+            worker.Skill = workerDto.Skill;
+
+            _context.Entry(worker).State = EntityState.Modified;
+            _context.SaveChanges();
+
+            return NoContent();
         }
 
+        // POST: api/Workers
+        [HttpPost]
+        public ActionResult<WorkerDto> PostWorker(WorkerDto workerDto)
+        {
+            var worker = new Worker
+            {
+                Name = workerDto.Name,
+                Email = workerDto.Email,
+                Phone = workerDto.Phone,
+                Skill = workerDto.Skill,
+                Password = workerDto.Password,
+            };
+
+            _context.Workers.Add(worker);
+            _context.SaveChanges();
+
+            var createdWorkerDto = new WorkerDto
+            {
+                WorkerID = worker.WorkerID,
+                Name = worker.Name,
+                Email = worker.Email,
+                Phone = worker.Phone,
+                Skill = worker.Skill
+            };
+
+            return CreatedAtAction(nameof(GetWorker), new { id = worker.WorkerID }, createdWorkerDto);
+        }
+
+        // DELETE: api/Workers/5
         [HttpDelete("{id}")]
-        public string Delete(int id)
+        public IActionResult DeleteWorker(int id)
         {
-            Worker workerToBeDeleted = _Context.Workers.Find(id);
-            _Context.Workers.Remove(workerToBeDeleted);
-            _Context.SaveChanges();
-            return "Deleted Successfully";
+            var worker = _context.Workers.Find(id);
+            if (worker == null)
+            {
+                return NotFound();
+            }
+
+            _context.Workers.Remove(worker);
+            _context.SaveChanges();
+
+            return NoContent();
         }
 
+        private bool WorkerExists(int id)
+        {
+            return _context.Workers.Any(e => e.WorkerID == id);
+        }
     }
 }

@@ -1,40 +1,24 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HomeServices.Model
 {
     public class Customer
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
         public int CustomerID { get; set; }
 
-        [Required]
-        [StringLength(100)]
+        [Required, MaxLength(100)]
         public string Name { get; set; }
 
-        [Required]
-        [StringLength(100)]
-        [EmailAddress]
+        [Required, EmailAddress, MaxLength(100)]
         public string Email { get; set; }
 
-        [Required]
-        [StringLength(100)]
-        
-        public string Password { get; set; }
-
-
-        [Required]
-        [StringLength(15)]
+        [Required, Phone, MaxLength(15)]
         public string Phone { get; set; }
 
         public string Address { get; set; }
 
-
-
-        public ICollection<Booking> Bookings { get; set; }
-
+        [Required]
+        public string Password { get; set; }
     }
 }
