@@ -10,6 +10,7 @@ namespace HomeServices.Model
         public int BookingID { get; set; }
 
         public int CustomerID { get; set; }
+
         public int WorkerID { get; set; }
         public int ServiceID { get; set; }
 

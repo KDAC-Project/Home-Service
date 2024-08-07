@@ -11,7 +11,7 @@ namespace HomeServices.Model
         [Required, MaxLength(500)]
         public string Description { get; set; }
 
-        public int? CategoryID { get; set; }
+        public int CategoryID { get; set; }
 
         [ForeignKey("CategoryID")]
         public Category Category { get; set; }
