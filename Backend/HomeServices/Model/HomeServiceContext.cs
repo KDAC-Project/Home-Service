@@ -20,7 +20,7 @@ namespace HomeServices.Model
 
         public  DbSet<Status> Status { get; set; }
 
-        public DbSet<WorkerPayment> WorkerPayments { get; set; }
+        public DbSet<WokerPayment> WorkerPayments { get; set; }
 
         public DbSet<Booking> Bookings { get; set; }
 
@@ -29,5 +29,7 @@ namespace HomeServices.Model
         public DbSet<Worker> Workers { get; set; }
 
         public DbSet<Rating> Ratings { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

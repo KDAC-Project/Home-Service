@@ -3,15 +3,18 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HomeServices.Model
 {
-    public class Rating
+    public class WokerPayment
     {
         [Key]
-        public int RatingID { get; set; }
+        public int WpaymentID { get; set; }
 
         public int WorkerID { get; set; }
 
-        [Range(1, 5)]
-        public int RatingValue { get; set; }
+        [Required]
+        public double WpaymentAmount { get; set; }
+
+        [Required]
+        public DateTime WpaymentDate { get; set; }
 
         [ForeignKey("WorkerID")]
         public Worker Worker { get; set; }
