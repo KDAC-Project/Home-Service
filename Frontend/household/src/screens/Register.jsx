@@ -9,11 +9,14 @@ function Register() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('') 
     const [phone, setPhone] = useState('')
+    const [Address, setAddress] = useState('')
+
   
     // get the navigation hook
     const navigate = useNavigate()
   
     const onRegister = async () => {
+      debugger;
       if (Name.length == 0) {
         toast.error('please enter name')
       } else if (email.length == 0) {
@@ -22,9 +25,10 @@ function Register() {
         toast.error('please enter password')
       
       } else {
+        debugger;
         // call post /admin/register api
-        const result = await register(Name, email, password, phone)
-        if (result['status'] == 'success') {
+        const result = await register(Name, email, password, phone,Address)
+        if (result == 'success') {
           toast.success('Successfully registered a new user')
           navigate('/login')
         } else {
@@ -69,6 +73,14 @@ function Register() {
                 <input
                   onChange={(e) => setPassword(e.target.value)}
                   type='password'
+                  className='form-control'
+                />
+              </div>
+              <div className='mb-3'>
+                <label htmlFor=''>Address</label>
+                <input
+                  onChange={(e) => setAddress(e.target.value)}
+                  type='text'
                   className='form-control'
                 />
               </div>

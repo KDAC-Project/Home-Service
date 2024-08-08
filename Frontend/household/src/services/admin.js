@@ -1,19 +1,36 @@
-import axios from 'axios'
-import { config } from './config'
+import axios from 'axios';
+import { config } from './config';
 
-export async function register(Name, email, password, phone) {
+export async function register(Name, email, password, phone,Address) {
   try {
-    // post body
-    const body = { Name, email, password, phone }
+    // Post body
+    const body = { Name, email, password, phone ,Address };
 
-    // send the post request
-    const response = await axios.post(`${config.serverUrl}/user/register`, body)
+    // Send the post request
+    const response = await axios.post(`${config.serverUrl}/api/Customer`, body);
 
-    // return the json body from response object
-    return response.data
+    // Return the json body from response object
+    return response.data;
   } catch (ex) {
-    console.log(`exception: `, ex)
+    console.log(`Exception: `, ex);
   }
 
-  return null
+  return null;
+}
+
+export async function login(email, password) {
+  try {
+    // Post body
+    const body = { email, password };
+
+    // Send the post request
+    const response = await axios.post(`${config.serverUrl}/api/Customer/Login`, body);
+
+    // Return the json body from response object
+    return response.data;
+  } catch (ex) {
+    console.log(`Exception: `, ex);
+  }
+
+  return null;
 }

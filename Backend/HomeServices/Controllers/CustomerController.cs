@@ -3,6 +3,7 @@ using HomeServices.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace HomeServices.Controllers
 {
@@ -95,22 +96,22 @@ namespace HomeServices.Controllers
                 Email = customerDto.Email,
                 Phone = customerDto.Phone,
                 Address = customerDto.Address,
-                Password = "hashedPassword" // Replace with actual hashing logic
+                Password =customerDto.Password// Replace with actual hashing logic
             };
-
+            
             _context.Customers.Add(customer);
             _context.SaveChanges();
-
-            var createdCustomerDto = new CustomerDto
-            {
-                CustomerID = customer.CustomerID,
-                Name = customer.Name,
-                Email = customer.Email,
-                Phone = customer.Phone,
-                Address = customer.Address
-            };
-
-            return CreatedAtAction(nameof(GetCustomer), new { id = customer.CustomerID }, createdCustomerDto);
+            
+            //var createdCustomerDto = new CustomerDto
+            //{
+            //    CustomerID = customer.CustomerID,
+            //    Name = customer.Name,
+            //    Email = customer.Email,
+            //    Phone = customer.Phone,
+            //    Address = customer.Address
+            //};
+            return Ok("success");
+            //return CreatedAtAction(nameof(GetCustomer), new { id = customer.CustomerID }, createdCustomerDto);
         }
 
         // DELETE: api/Customers/5
@@ -129,6 +130,26 @@ namespace HomeServices.Controllers
             return NoContent();
         }
 
+        [HttpPost("Login")]
+
+        public IActionResult Login([FromBody] LoginDto loginDto)
+        {
+            if (loginDto == null || string.IsNullOrWhiteSpace(loginDto.Email) || string.IsNullOrWhiteSpace(loginDto.Password))
+            {
+                return BadRequest("Invalid Login Request");
+            }
+
+            var customer = _context.Customers.FirstOrDefault(c => c.Email == loginDto.Email);
+
+            if (customer == null || customer.Password != loginDto.Password)
+            {
+                return Unauthorized("Invalid Email or password");
+
+            }
+            //return CreatedAtAction(nameof(GetCustomer), customer);
+            return Ok("Login Successful");
+
+        }
         private bool CustomerExists(int id)
         {
             return _context.Customers.Any(e => e.CustomerID == id);
