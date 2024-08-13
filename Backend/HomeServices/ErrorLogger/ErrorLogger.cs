@@ -14,7 +14,7 @@ namespace HomeServices.ErrorLggers
         public void Log(string message)
         {
             //  string Path = "e:\\Log\\Log.json";
-            string Path = "C:\\Log\\Log.json";
+            string Path = "D:\\Log\\Log.json";
         
         var logEntry = new LogEntry
             {
