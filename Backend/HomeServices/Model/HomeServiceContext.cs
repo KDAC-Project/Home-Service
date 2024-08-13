@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 namespace HomeServices.Model
 {
-    public class HomeServiceContext:DbContext
+    public class HomeServiceContext : DbContext
     {
-        public HomeServiceContext(DbContextOptions options):base(options) { }
+        public HomeServiceContext(DbContextOptions options) : base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -31,5 +31,7 @@ namespace HomeServices.Model
         public DbSet<Rating> Ratings { get; set; }
 
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Admin> AdminTable { get; set; }
     }
 }

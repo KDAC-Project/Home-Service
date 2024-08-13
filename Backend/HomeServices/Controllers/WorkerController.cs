@@ -1,5 +1,6 @@
 ﻿using HomeServices.Dto;
 using HomeServices.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace HomeServices.Controllers
 
         // GET: api/Workers
         [HttpGet]
+        //[Authorize(Policy="RequiredLoggedIn")]
         public ActionResult<IEnumerable<WorkerDto>> GetWorkers()
         {
             var workers = _context.Workers

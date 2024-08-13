@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace TaskManager.ErrorLggers
+namespace HomeServices.ErrorLggers
 {
     public class ErrorLogger
     {
@@ -13,9 +13,10 @@ namespace TaskManager.ErrorLggers
 
         public void Log(string message)
         {
-            string Path = "e:\\Log\\Log.json";
-
-            var logEntry = new LogEntry
+            //  string Path = "e:\\Log\\Log.json";
+            string Path = "C:\\Log\\Log.json";
+        
+        var logEntry = new LogEntry
             {
                 Timestamp = DateTime.Now,
                 Message = message
