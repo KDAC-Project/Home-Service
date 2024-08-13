@@ -1,0 +1,53 @@
+body{
+background-color: white;
+justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Add this to make the container take up the full height */
+  width: 100vw; /* Add this to make the container take up the full width */
+}
+
+.about-container {
+  background-color: white; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  flex: 1; /* Add this to make the about-container take up the remaining space */
+}
+
+.about-section {
+  width: 80%; /* Reduce the width to create some margin on the sides */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Add this to center the about-section horizontally */
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.text-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
