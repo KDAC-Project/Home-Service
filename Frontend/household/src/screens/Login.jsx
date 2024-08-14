@@ -4,12 +4,13 @@ import { toast } from 'react-toastify'
 import { login } from '../services/admin';
 import "../styles/Login.css";
 
-
+debugger;
 function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [isEmailEmpty, setEmailEmpty] = useState(false)
   const [isPasswordEmpty, setPasswordEmpty] = useState(false)
+  
 
   // get navigation hook
   const navigate = useNavigate()
