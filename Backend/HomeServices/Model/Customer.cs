@@ -1,10 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HomeServices.Model
 {
+    [Table("Customers")]
     public class Customer
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CustomerID { get; set; }
 
         [Required, MaxLength(100)]
@@ -20,5 +23,8 @@ namespace HomeServices.Model
 
         [Required]
         public string Password { get; set; }
+
+
+        public ICollection<Booking> Bookings  { get; set;}
     }
 }

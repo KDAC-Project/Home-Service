@@ -6,6 +6,7 @@ namespace HomeServices.Model
     public class WokerPayment
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int WpaymentID { get; set; }
 
         public int WorkerID { get; set; }

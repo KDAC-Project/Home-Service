@@ -6,6 +6,7 @@ namespace HomeServices.Model
     public class Rating
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RatingID { get; set; }
 
         public int WorkerID { get; set; }

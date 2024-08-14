@@ -20,6 +20,7 @@ namespace HomeServices.Controllers
 
         // GET: api/Wpayment
         [HttpGet]
+
         public ActionResult<IEnumerable<WpaymentDto>> GetWpayment()
         {
             var payments = _context.WorkerPayments

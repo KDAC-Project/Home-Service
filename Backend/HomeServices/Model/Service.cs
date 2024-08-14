@@ -6,6 +6,7 @@ namespace HomeServices.Model
     public class Service
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ServiceID { get; set; }
 
         [Required, MaxLength(500)]

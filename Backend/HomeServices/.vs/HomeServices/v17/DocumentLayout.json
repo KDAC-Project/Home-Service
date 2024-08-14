@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\wokerpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\wokerpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\homeservicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\homeservicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\exceptions\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:exceptions\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\filters\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:filters\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\errorlogger\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:errorlogger\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\controllers\\bookingcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:controllers\\bookingcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|c:\\users\\mansi\\onedrive\\desktop\\daywise-project\\new folder\\finalday\\homeservices\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F887C031-FC6B-4B08-A83F-C289CF51FC53}|HomeServices.csproj|solutionrelative:dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.AdminTable.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.Workers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Worker.cs",
+              "RelativeDocumentMoniker": "Model\\Worker.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Worker.cs",
+              "RelativeToolTip": "Model\\Worker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:24:59.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WokerPayment.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\WokerPayment.cs",
+              "RelativeDocumentMoniker": "Model\\WokerPayment.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\WokerPayment.cs",
+              "RelativeToolTip": "Model\\WokerPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:24:56.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Status.cs",
+              "RelativeDocumentMoniker": "Model\\Status.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Status.cs",
+              "RelativeToolTip": "Model\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:24:51.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Service.cs",
+              "RelativeDocumentMoniker": "Model\\Service.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Service.cs",
+              "RelativeToolTip": "Model\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:24:47.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Rating.cs",
+              "RelativeDocumentMoniker": "Model\\Rating.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Rating.cs",
+              "RelativeToolTip": "Model\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:24:43.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\Category.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Category.cs",
+              "RelativeToolTip": "Model\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:48:50.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:21:24.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Exceptions\\CustomExceptions.cs",
+              "RelativeDocumentMoniker": "Exceptions\\CustomExceptions.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Exceptions\\CustomExceptions.cs",
+              "RelativeToolTip": "Exceptions\\CustomExceptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:30:03.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Booking.cs",
+              "RelativeDocumentMoniker": "Model\\Booking.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Booking.cs",
+              "RelativeToolTip": "Model\\Booking.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:14.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeServiceContext.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\HomeServiceContext.cs",
+              "RelativeDocumentMoniker": "Model\\HomeServiceContext.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\HomeServiceContext.cs",
+              "RelativeToolTip": "Model\\HomeServiceContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:17.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Filters\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Filters\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Filters\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Filters\\GlobalExceptionHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:30:08.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Admin.cs",
+              "RelativeDocumentMoniker": "Model\\Admin.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Model\\Admin.cs",
+              "RelativeToolTip": "Model\\Admin.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:09.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:30:16.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorLogger.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\ErrorLogger\\ErrorLogger.cs",
+              "RelativeDocumentMoniker": "ErrorLogger\\ErrorLogger.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\ErrorLogger\\ErrorLogger.cs",
+              "RelativeToolTip": "ErrorLogger\\ErrorLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:48:31.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T04:47:05.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingController1.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\BookingController1.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController1.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\BookingController1.cs",
+              "RelativeToolTip": "Controllers\\BookingController1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:14:14.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\CustomerDto.cs",
+              "RelativeToolTip": "Dto\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:14:07.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RatingDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\RatingDto.cs",
+              "RelativeDocumentMoniker": "Dto\\RatingDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\RatingDto.cs",
+              "RelativeToolTip": "Dto\\RatingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:14:04.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\PaymentDto.cs",
+              "RelativeToolTip": "Dto\\PaymentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:14:01.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:28.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\BookingDto.cs",
+              "RelativeDocumentMoniker": "Dto\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\BookingDto.cs",
+              "RelativeToolTip": "Dto\\BookingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:26.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\AdminDto.cs",
+              "RelativeDocumentMoniker": "Dto\\AdminDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\AdminDto.cs",
+              "RelativeToolTip": "Dto\\AdminDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:29:24.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\mansi\\OneDrive\\Desktop\\Daywise-Project\\New folder\\FinalDay\\HomeServices\\Dto\\CategoryDto.cs",
+              "RelativeToolTip": "Dto\\CategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:49:01.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbo.AdminTable [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.AdminTable.sql",
+              "ToolTip": "dbo.AdminTable [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-14T05:11:10.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.Workers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.Workers.sql",
+              "ToolTip": "dbo.Workers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-14T05:10:30.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.Customers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HomeServiceTest3/True/SqlTable/dbo.Customers.sql",
+              "ToolTip": "dbo.Customers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-14T05:09:47.511Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
