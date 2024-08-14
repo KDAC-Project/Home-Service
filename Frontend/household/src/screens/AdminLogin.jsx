@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { login } from '../services/admin';
+import { login } from '../services/aadmin.js';
 import "../styles/Login.css";
+
 
 debugger;
 function Login() {
@@ -28,9 +29,10 @@ function Login() {
       const response = await login(email, password);
       debugger;
       console.log(response.status);
+     
         if (response.status === 200) {
           toast.success('Login Successful');
-          navigate('/home')
+          navigate('/BookingForm')
         } else {
           toast.error('Login failed. Please check your email and password.');
         }
@@ -86,9 +88,7 @@ function Login() {
               )}
             </div>
             <div className='mb-3'>
-              <div>
-                Don't have account ? <Link to='/register'>Register here</Link>
-              </div>
+              
               <button onClick={onLogin} className='btn btn-success mt-2'>
                 Login
               </button>
