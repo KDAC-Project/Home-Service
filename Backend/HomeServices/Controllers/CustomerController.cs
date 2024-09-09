@@ -154,6 +154,7 @@ namespace HomeServices.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class CustomerController : ControllerBase
     {
         private readonly HomeServiceContext _context;
@@ -341,5 +342,7 @@ namespace HomeServices.Controllers
                 return Convert.ToBase64String(bytes);
             }
         }
+
+       
     }
 }

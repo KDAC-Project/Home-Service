@@ -1,4 +1,6 @@
 ﻿using HomeServices.Dto;
+using HomeServices.Exceptions;
+using HomeServices.Filters;
 using HomeServices.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +15,7 @@ namespace HomeServices.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
+    [GlobalExceptionHandler]
     public class AdminController : ControllerBase
     {
         private readonly HomeServiceContext _context;
@@ -105,6 +108,8 @@ namespace HomeServices.Controllers
 
             _context.AdminTable.Remove(admin);
             _context.SaveChanges();
+
+            throw new CustomExceptions("Send"); 
 
             return NoContent();
         }

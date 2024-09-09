@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sunbeam\\MS.NET\\ProjectWork\\new-Code-first\\push-branch\\FinalDay\\HomeServices\\HomeServices.csproj": {}
+    "D:\\IskooooooooooooooooooRunnnnn\\FinalDay\\HomeServices\\HomeServices.csproj": {}
   },
   "projects": {
-    "D:\\Sunbeam\\MS.NET\\ProjectWork\\new-Code-first\\push-branch\\FinalDay\\HomeServices\\HomeServices.csproj": {
+    "D:\\IskooooooooooooooooooRunnnnn\\FinalDay\\HomeServices\\HomeServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sunbeam\\MS.NET\\ProjectWork\\new-Code-first\\push-branch\\FinalDay\\HomeServices\\HomeServices.csproj",
+        "projectUniqueName": "D:\\IskooooooooooooooooooRunnnnn\\FinalDay\\HomeServices\\HomeServices.csproj",
         "projectName": "HomeServices",
-        "projectPath": "D:\\Sunbeam\\MS.NET\\ProjectWork\\new-Code-first\\push-branch\\FinalDay\\HomeServices\\HomeServices.csproj",
+        "projectPath": "D:\\IskooooooooooooooooooRunnnnn\\FinalDay\\HomeServices\\HomeServices.csproj",
         "packagesPath": "C:\\Users\\pravi\\.nuget\\packages\\",
-        "outputPath": "D:\\Sunbeam\\MS.NET\\ProjectWork\\new-Code-first\\push-branch\\FinalDay\\HomeServices\\obj\\",
+        "outputPath": "D:\\IskooooooooooooooooooRunnnnn\\FinalDay\\HomeServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
