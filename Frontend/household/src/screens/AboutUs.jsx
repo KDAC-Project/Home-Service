@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/AboutUs.css';
+import img from '../images/Worker.jpeg'
+import { Navbar } from 'react-bootstrap';
+
 
 function App() {
   return (
+    <>
+    <Navbar />
+   
     <div className="container">
       <div className="image-container">
-        <img src="Frontend/src/images/worker.jpg" alt="Man in a hat" /> 
+        <img src= {img} alt="Man in a hat" /> 
       </div>
       <div className="text-container">
         <h1>About Our Cleaning Service</h1>
@@ -19,6 +25,7 @@ function App() {
         </p>
       </div>
     </div>
+    </>
   );
 }
 

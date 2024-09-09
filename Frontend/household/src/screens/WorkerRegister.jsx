@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { toast } from "react-toastify"
 import { Link, useNavigate } from "react-router-dom"
-import { wRegister } from '../services/admin'
+import { wRegister } from '../services/Worker.js'
 
 
 function WorkerRegister() {
@@ -27,8 +27,8 @@ function WorkerRegister() {
       } else {
         debugger;
         // call post /admin/register api
-        const result = await WorkerRegister(Name, email, password, phone,Skill)
-        if (result == 'success') {
+        const result = await wRegister(Name, email, password, phone,Skill)
+        if (result.status == 200) {
           toast.success('Successfully registered a new user')
           navigate('/booking')
         } else {
