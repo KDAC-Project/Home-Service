@@ -1,0 +1,40 @@
+body {
+    background-color:  #86989b; /* Light cyan background */
+  }
+  
+  .container {
+    padding-top: 5rem;
+  }
+  
+  .page-header {
+    margin-bottom: 2rem;
+  }
+  
+  .form {
+    background-color:  #c6e0db; /* Form background color */
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(140, 178, 197, 0.1);
+  }
+  
+  .form .mb-3 label {
+    font-weight: bold;
+  }
+  
+  .form .mb-3 p {
+    margin-top: 0.5rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-success {
+    background-color: #575b5f; /* Custom button color */
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #151616; /* Darker shade for hover */
+  }
+  

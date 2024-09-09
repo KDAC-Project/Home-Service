@@ -1,9 +1,12 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
-import '../styles/FAQ.css';
+//import '../styles/FAQ.css';
 
 function FAQ() {
   return (
+    <>
+    <Navbar />
+   
     
     <div className="faq-container">
       <h2 className="faq-title">F.A.Q</h2>
@@ -58,7 +61,9 @@ function FAQ() {
         </div>
       </div>
     </div>
+    </>
   );
+   
 }
 
 export default FAQ;

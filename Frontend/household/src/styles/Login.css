@@ -1,0 +1,56 @@
+/* Apply a background color to the entire page */
+body {
+    background-color: #86989b; /* Light cyan background */
+  }
+  
+  /* Center the login form and add some padding and margin for better spacing */
+  .container {
+    padding-top: 5rem;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form {
+    background-color: #c6e0db; /* Form background color */
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(140, 178, 197, 0.1);
+  }
+  
+  .form .mb-3 label {
+    font-weight: bold;
+  }
+  
+  .form .mb-3 p {
+    margin-top: 0.5rem;
+  }
+  
+  .input-group-prepend {
+    margin-right: -1px;
+  }
+  
+  .input-group-text {
+    background-color: #a8edde; /* Same as form background */
+    border: 1px solid #ced4da;
+    border-right: none;
+  }
+  
+  .form-control {
+    border-left: none;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .login-button {
+    background-color: #575b5f; /* Custom button color */
+    color: white;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background-color: #151616; /* Darker shade for hover */
+  }
